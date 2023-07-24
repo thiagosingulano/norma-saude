@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+.social-bar {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#nav-sup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinhar o logo e o menu verticalmente */
+    background-color: #1A4E37;
+  }
+
+#menu-header {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.botoes-menu {
+    margin: 0 10px; /* Adicionar uma margem de 10px entre os botões */
+  }
+
+#logo-header {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.banner-principal {
+    background-image: url(/imagens/foto-container.jpg);
+    
+}
+
