@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    background-image: url(/norma-saude/imagens/foto-pc.jpg);
+    background-size: cover;
 }
 .social-bar {
     display: flex;
@@ -11,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center; /* Alinhar o logo e o menu verticalmente */
-    background-color: #1A4E37;
+    opacity: 1;
   }
 
 #menu-header {
@@ -24,16 +26,33 @@ body {
 
 .botoes-menu {
     margin: 0 10px; /* Adicionar uma margem de 10px entre os botões */
+    font-size:17px;
+    font-family:Verdana;
+    width:180px;
+    height:60px;
+    border-width:1px;
+    color:rgba(26, 78, 55, 1);
+    border-color:rgba(255, 255, 255, 0);
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+    background-color:transparent;
   }
 
 #logo-header {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     float: left;
 }
 
 .banner-principal {
-    background-image: url(/imagens/foto-container.jpg);
+   
+    background-size: cover;
+    height: 700px;
+    
     
 }
+
+
 
