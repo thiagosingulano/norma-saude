@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/norma-saude/pages/homePage/homePage.css">
+    <title>Norma Saúde - Especialistas em Vigilância Sanitária</title>
+    <link rel="stylesheet" href="/pages/homePage/homePage.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+</head> 
 <body>
     
     <header>
         <nav id="nav-sup">
-            <a href="#"><img src="/norma-saude/imagens/logo-header-removebg-preview.png" alt="logo-header" id="logo-header"></a>
+            <a href="/pages/homePage/homePage.html"><img src="/imagens/logo-header.svg" alt="logo-header" id="logo-header"></a>
             <ul id="menu-header">
                 <li><a href="#"><button class="botoes-menu">Quem somos nós</button></a></li>
                 <li><a href="#"><button class="botoes-menu">Serviços</button></a></li>
@@ -23,19 +26,38 @@
     </header>
     <main>
         <div class="banner-principal">
-            <h1>Norma Saúde</h1>
-            <p>Somos uma empresa especialista em preparar estabelecimentos de saúde para a vigilância santirária</p>
+            <h1 class="txt-banner-principal">Norma Saúde</h1>
+            <p class="txt-banner-principal">Somos uma empresa especialista em preparar estabelecimentos de saúde para a vigilância santirária</p>
         </div>
+        <div class="container-servicos"></div>
+        <div class="container-cases"></div>
+        <div class="container-orcamento"></div>
     </main>
     <footer>
-        <div class="container-footer">
-            <div class="social-bar">
-                <!-- Aqui você pode colocar os ícones/link para as redes sociais -->
-                <a href="#"><img src="/norma-saude/imagens/PhoneCall.svg" alt="Phone"></a>
-                <a href="#"><img src="/norma-saude/imagens/LinkedinSocial.svg" alt="LinkedIn"></a>
-                <a href="#"><img src="/norma-saude/imagens/InstagramSocial.svg" alt="Instagram"></a>
+        <div class="container">
+            <div class="col-4">
+                <h4>Sobre a Norma</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate odit doloremque, obcaecati sint commodi voluptatum sequi sit soluta aspernatur, dolore, explicabo dolores nam nisi laudantium aut illo accusantium atque nihil!</p>
+            </div>
+            <div class="col-3">
+                <div class="social-bar">
+                    <a href="#"><img src="/imagens/PhoneCall.svg" alt="Phone"></a>
+                    <a href="#"><img src="/imagens/LinkedinSocial.svg" alt="LinkedIn"></a>
+                    <a href="#"><img src="/imagens/InstagramSocial.svg" alt="Instagram"></a>
+                    <hr>
+                </div>
+            </div>
+            <div class="col-3">
+                <ul class="menu-footer">
+                    <li><a href="#" class="botoes-footer">Quem somos nós</a></li>
+                    <li><a href="#" class="botoes-footer">Serviços</a></li>
+                    <li><a href="#" class="botoes-footer">Blog</a></li>
+                    <li><a href="#" class="botoes-footer">Contato</a></li>
+                </ul>
+
             </div>
         </div>
+
     </footer>
 </body>
 </html>
