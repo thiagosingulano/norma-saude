@@ -1,101 +1,43 @@
-body {
-    font-family: 'montserrat', Verdana, Geneva, Tahoma, sans-serif;
+/* HEADER */
+
+header > .container {
+    margin: 0;
     padding: 0;
-    
-    background-size: cover;
 }
-
-.banner-principal {
-    background-color: aliceblue;
-}
-
-header {
-    background-color: transparent;
-}
-
-.social-bar {
-    display: flex;
-    
-    
-}
-
-#nav-sup {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; /* Alinhar o logo e o menu verticalmente */
-    opacity: 1;
-    align-items: center;
-  }
-
-#menu-header {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-}
-
-.botoes-menu {
-    margin: 0 10px; 
-    font-size:17px;
-    font-family:Verdana;
-    width:180px;
-    height:60px;
-    border-width:1px;
-    color:#1a4e37;
-    border-color:rgba(255, 255, 255, 0);
-    border-top-left-radius:28px;
-    border-top-right-radius:28px;
-    border-bottom-left-radius:28px;
-    border-bottom-right-radius:28px;
-    background-color:transparent;
-  }
 
 #logo-header {
-    height: 140px;
-    width: 140px;
-    float: left;
+    height: 120px;
+    width:120px;
 }
 
-.banner-principal {
-   
-    height: 700px;
-    position: relative;
-    background-color: transparent;
+#col-nav {
+    padding: 0;
 }
 
-.txt-banner-principal {
+.custom-navbar-nav .nav-item {
+    margin-right: 4rem;
+}
+
+.navbar {
+    background-color:transparent;
+}
+
+/* BODY */
+
+#slide-texto {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    height: 100vh;
 }
 
-footer {
-    background-color: #1a4e37;
-    height: 200px;
-    color: white;
-    padding-top: 20px;
+.container-servicos h1 {
+    text-align: center;
 }
 
-.menu-footer {
-    list-style: none;
+#titulo-servicos {
+    margin-bottom: 2rem;
 }
-
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-}
-
-hr {
-    color: #ffff;
-    height: 2px;
-    width: 50px;
-    margin-bottom: 10px;
-}
-
 
 
 
