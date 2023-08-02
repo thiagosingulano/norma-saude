@@ -1,5 +1,4 @@
 /* HEADER */
-
 header > .container {
     margin: 0;
     padding: 0;
@@ -7,7 +6,7 @@ header > .container {
 
 #logo-header {
     height: 120px;
-    width:120px;
+    width: 120px;
 }
 
 #col-nav {
@@ -19,11 +18,10 @@ header > .container {
 }
 
 .navbar {
-    background-color:transparent;
+    background-color: transparent;
 }
 
 /* BODY */
-
 #slide-texto {
     display: flex;
     align-items: center;
@@ -35,13 +33,97 @@ header > .container {
     text-align: center;
 }
 
+.container-servicos {
+    margin-bottom: 100px;
+}
+
 #titulo-servicos {
     margin-bottom: 2rem;
 }
 
+#banner-verde {
+    background-color: #1A4E37;
+    padding: 20px;
+    margin-bottom: 100px;
+    height: 50vh;
+}
 
+.with-vertical-bar::before {
+    content: "";
+    border-left: 1px solid #fff;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
 
+@media (max-width: 991px) {
+    .cards-container {
+        justify-content: center;
+    }
+    .card-item {
+        width: 75%;
+        margin-bottom: 20px;
+    }
+}
 
+/* Centraliza os cards */
+.cards-container {
+    justify-content: center;
+}
+
+.card-item {
+    display: flex;
+    justify-content: center;
+}
+
+.feature-container {
+    max-width: 100%;
+}
+
+.feature-row {
+    display: flex;
+    justify-content: center; /* Centralizar os elementos da row horizontalmente */
+    flex-wrap: wrap;
+    background: #1A4E37;
+}
+
+.col-md-5 {
+    flex: 1; /* As colunas ocupam a mesma largura */
+    text-align: center; /* Centralizar o conteúdo horizontalmente */
+    justify-content: center;
+}
+
+/* Estilos para a barra vertical */
+.vr-vertical {
+    width: 1px; /* Ajustar a largura da barra vertical para ser fina */
+    height: 100px; /* Altura desejada da barra vertical */
+    background-color: #000;
+    margin: 0 auto; /* Centralizar a barra vertical horizontalmente */
+    display: block;
+}
+
+/* Estilos para a barra horizontal */
+.vr-horizontal {
+    width: 75%; /* Ajustar a largura da barra horizontal para 75% da viewport */
+    height: 1px; /* Ajustar a altura da barra horizontal para ser fina */
+    margin: 10px auto; /* Centralizar a barra horizontal horizontalmente */
+    display: none;
+}
+
+/* Estilos para o conteúdo da tabela */
+.content-table {
+    list-style: none;
+    padding: 0;
+}
+
+.table-item {
+    margin-bottom: 10px;
+}
+
+.feature-text {
+    color: #fff;
+}
 
 
 
