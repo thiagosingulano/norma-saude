@@ -1,4 +1,8 @@
 /* HEADER */
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
 header > .container {
     margin: 0;
     padding: 0;
@@ -19,6 +23,8 @@ header > .container {
 
 .navbar {
     background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .navbar-toggler {
@@ -52,6 +58,7 @@ header > .container {
 
 .container-servicos h1 {
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container-servicos {
@@ -60,6 +67,7 @@ header > .container {
 
 #titulo-servicos {
     margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 #banner-verde {
@@ -96,6 +104,10 @@ header > .container {
 .card-item {
     display: flex;
     justify-content: center;
+}
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
 }
 
 .feature-container {
@@ -222,7 +234,7 @@ footer {
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-left: 0;
 }
 
