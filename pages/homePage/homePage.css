@@ -160,7 +160,10 @@ header > .container {
     }
 }
 
-
+.footer > .container {
+    background-color: #1A4E37;
+    height: 400px;
+}
    
 
 
