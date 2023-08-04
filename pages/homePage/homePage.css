@@ -21,6 +21,27 @@ header > .container {
     background-color: transparent;
 }
 
+.navbar-toggler {
+    margin-right: 56px;
+}
+
+.nav-link > button {
+    color: #1A4E37;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
 /* BODY */
 #slide-texto {
     display: flex;
@@ -85,7 +106,10 @@ header > .container {
     display: flex;
     justify-content: center; /* Centralizar os elementos da row horizontalmente */
     flex-wrap: wrap;
+    align-items: center;
     background: #1A4E37;
+    opacity: 0.9;
+    height: 50vh;
 }
 
 .col-md-5 {
@@ -94,27 +118,12 @@ header > .container {
     justify-content: center;
 }
 
-/* Estilos para a barra vertical */
-.vr-vertical {
-    width: 1px; /* Ajustar a largura da barra vertical para ser fina */
-    height: 100px; /* Altura desejada da barra vertical */
-    background-color: #000;
-    margin: 0 auto; /* Centralizar a barra vertical horizontalmente */
-    display: block;
-}
-
-/* Estilos para a barra horizontal */
-.vr-horizontal {
-    width: 75%; /* Ajustar a largura da barra horizontal para 75% da viewport */
-    height: 1px; /* Ajustar a altura da barra horizontal para ser fina */
-    margin: 10px auto; /* Centralizar a barra horizontal horizontalmente */
-    display: none;
-}
 
 /* Estilos para o conteúdo da tabela */
 .content-table {
     list-style: none;
     padding: 0;
+    color: #fff;
 }
 
 .table-item {
@@ -123,8 +132,36 @@ header > .container {
 
 .feature-text {
     color: #fff;
+    display: flex;
+    justify-content: center;
 }
 
+/* Center the hr element */
+.feature-divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the hr element */
+.rule {
+    border: none; /* remove default hr styling */
+    border-right: 1px solid #fff; /* vertical line */
+    height: 200px; /* adjust the height to your preference */
+}
+
+/* Media query for screens SM and below */
+@media (max-width: 576px) {
+    .rule {
+        border-right: none; /* remove the vertical line */
+        border-bottom: 1px solid #fff; /* horizontal line */
+        width: 200px; /* adjust the width to your preference */
+        height: auto; /* set height to auto to make it horizontal */
+    }
+}
+
+
+   
 
 
 
